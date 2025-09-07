@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Offline analysis (no admin)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/sniffer.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--offline",
+        "path/to/capture.pcap"
+      ]
+    },
+    {
+      "name": "Live capture (edit iface, run as admin)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/sniffer.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--iface",
+        "eth0",
+        "--bpf",
+        "ip"
+      ]
+    }
+  ]
+}
