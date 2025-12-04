@@ -10,7 +10,6 @@ This project demonstrates **network traffic monitoring, packet inspection, and p
 - Analyze Ethernet, IP, TCP, UDP, and ICMP headers.
 - Save captured packets to log files for later use.
 - Detect unusual traffic patterns (e.g., suspicious ports, frequent packets).
-- Beginner-friendly implementation with **step-by-step code**.
 
 ---
 
